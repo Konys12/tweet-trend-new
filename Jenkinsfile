@@ -1,7 +1,7 @@
 
 def registry = 'https://konys13.jfrog.io'
 def imageName = 'konys13.jfrog.io/valaxy-docker-local/ttrend'
-def version   = '2.1.2'
+def version   = '2.1.3'
 pipeline {
     agent {
         label 'maven'
